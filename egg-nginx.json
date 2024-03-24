@@ -4,13 +4,15 @@
         "version": "PTDL_v2",
         "update_url": null
     },
-    "exported_at": "2024-02-20T08:00:56+08:00",
+    "exported_at": "2024-03-24T07:00:56+07:00",
     "name": "Nginx",
     "author": "cali@oryzen.xyz",
     "description": "An Nginx egg to host any Website",
     "features": null,
     "docker_images": {
-        "ghcr.io\/caliwyr\/nginx-ptero:8.2": "ghcr.io\/caliwyr\/nginx-ptero:8.2"
+        "ghcr.io\/caliwyr\/nginx-ptero:8.2": "ghcr.io\/caliwyr\/nginx-ptero:8.2",
+        "ghcr.io\/caliwyr\/nginx-ptero:8.1": "ghcr.io\/caliwyr\/nginx-ptero:8.1",
+        "ghcr.io\/caliwyr\/nginx-ptero:8.0": "ghcr.io\/caliwyr\/nginx-ptero:8.0"
     },
     "file_denylist": [],
     "startup": "{{STARTUP_CMD}}",
