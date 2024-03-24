@@ -1,6 +1,9 @@
 name: Nginx 8.2
 
 on:
+  push:
+    branches:
+      - 8.2
   workflow_dispatch:
 
 jobs:
