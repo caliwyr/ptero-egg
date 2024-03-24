@@ -1,11 +1,14 @@
-name: Nginx 8.2
+name: Nginx 8.0
 
 on:
+  push:
+    branches:
+      - 8.0
   workflow_dispatch:
 
 jobs:
   push:
-    name: "nginx-ptero:8.2"
+    name: "nginx-ptero:8.0"
     runs-on: ubuntu-latest
     strategy:
       fail-fast: false
@@ -28,4 +31,4 @@ jobs:
           platforms: linux/amd64,linux/arm64
           push: true
           tags: |
-            ghcr.io/caliwyr/nginx-ptero:8.2
+            ghcr.io/caliwyr/nginx-ptero:8.0
