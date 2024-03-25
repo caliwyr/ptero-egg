@@ -10,9 +10,7 @@
     "description": "An Nginx egg to host any Website",
     "features": null,
     "docker_images": {
-        "ghcr.io\/caliwyr\/nginx-ptero:8.2": "ghcr.io\/caliwyr\/nginx-ptero:8.2",
-        "ghcr.io\/caliwyr\/nginx-ptero:8.1": "ghcr.io\/caliwyr\/nginx-ptero:8.1",
-        "ghcr.io\/caliwyr\/nginx-ptero:8.0": "ghcr.io\/caliwyr\/nginx-ptero:8.0"
+        "ghcr.io\/caliwyr\/nginx-ptero:8.1": "ghcr.io\/caliwyr\/nginx-ptero:8.1"
     },
     "file_denylist": [],
     "startup": "{{STARTUP_CMD}}",
